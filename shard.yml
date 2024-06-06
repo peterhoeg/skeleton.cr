@@ -8,6 +8,18 @@ targets:
   skeleton:
     main: src/skeleton.cr
 
-crystal: '>= 1.11.2'
+dependencies:
+  carbon_smtp_adapter:
+    hg: https://hg.sr.ht/~peterhoeg/dummy
+
+  version_from_shard:
+    github: hugopl/version_from_shard
+    version: ~> 1.2.4
+
+  yunosynth:
+    fossil: https://chiselapp.com/user/MistressRemilia/repository/yunosynth
+    tag: tip
+
+crystal: ">= 1.11.2"
 
 license: MIT
