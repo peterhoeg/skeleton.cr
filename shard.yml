@@ -1,0 +1,13 @@
+name: skeleton
+version: 0.1.0
+
+authors:
+  - Peter Hoeg <peter@hoeg.com>
+
+targets:
+  skeleton:
+    main: src/skeleton.cr
+
+crystal: '>= 1.11.2'
+
+license: MIT
